@@ -1,4 +1,4 @@
-package de.uwuwhatsthis.quizApp.ui.loginScreen.api.codes;
+package app.api.codes;
 
 public enum ApiCodes {
     ERROR(-1),

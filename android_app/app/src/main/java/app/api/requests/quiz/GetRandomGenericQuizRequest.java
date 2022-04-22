@@ -1,10 +1,10 @@
-package de.uwuwhatsthis.quizApp.ui.loginScreen.api.requests.quiz;
+package app.api.requests.quiz;
 
 import java.util.HashMap;
 
-import de.uwuwhatsthis.quizApp.ui.loginScreen.api.generics.ApiRequest;
-import de.uwuwhatsthis.quizApp.ui.loginScreen.api.generics.RequestCallback;
-import de.uwuwhatsthis.quizApp.ui.loginScreen.api.generics.RequestType;
+import app.api.generics.ApiRequest;
+import app.api.generics.RequestCallback;
+import app.api.generics.RequestType;
 
 public class GetRandomGenericQuizRequest extends ApiRequest {
 

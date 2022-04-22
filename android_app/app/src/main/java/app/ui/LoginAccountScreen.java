@@ -1,24 +1,20 @@
-package de.uwuwhatsthis.quizApp.ui.loginScreen.ui;
+package app.ui;
 
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import org.json.JSONException;
-import org.json.JSONObject;
 
-import java.io.IOException;
-
-import de.uwuwhatsthis.quizApp.ui.loginScreen.MainActivity;
+import app.MainActivity;
 import de.uwuwhatsthis.quizApp.ui.loginScreen.R;
-import de.uwuwhatsthis.quizApp.ui.loginScreen.api.generics.ApiResponse;
-import de.uwuwhatsthis.quizApp.ui.loginScreen.api.requests.account.LoginRequest;
-import de.uwuwhatsthis.quizApp.ui.loginScreen.api.codes.ApiCodes;
-import de.uwuwhatsthis.quizApp.ui.loginScreen.api.codes.HttpCodes;
-import de.uwuwhatsthis.quizApp.ui.loginScreen.api.generics.ApiRequest;
-import de.uwuwhatsthis.quizApp.ui.loginScreen.api.state.StateManager;
-import de.uwuwhatsthis.quizApp.ui.loginScreen.ui.utils.Utils;
-import okhttp3.Response;
+import app.api.generics.ApiResponse;
+import app.api.requests.account.LoginRequest;
+import app.api.codes.ApiCodes;
+import app.api.codes.HttpCodes;
+import app.api.generics.ApiRequest;
+import app.api.state.StateManager;
+import app.ui.utils.Utils;
 
 public class LoginAccountScreen {
     private TextView username, password, createAccount;

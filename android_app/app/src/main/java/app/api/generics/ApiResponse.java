@@ -1,12 +1,12 @@
-package de.uwuwhatsthis.quizApp.ui.loginScreen.api.generics;
+package app.api.generics;
 
 import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.IOException;
 
-import de.uwuwhatsthis.quizApp.ui.loginScreen.api.codes.ApiCodes;
-import de.uwuwhatsthis.quizApp.ui.loginScreen.api.codes.HttpCodes;
+import app.api.codes.ApiCodes;
+import app.api.codes.HttpCodes;
 import okhttp3.Response;
 
 public class ApiResponse {

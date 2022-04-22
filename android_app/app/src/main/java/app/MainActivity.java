@@ -1,4 +1,4 @@
-package de.uwuwhatsthis.quizApp.ui.loginScreen;
+package app;
 
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
@@ -7,8 +7,9 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import de.uwuwhatsthis.quizApp.ui.loginScreen.api.state.StateManager;
-import de.uwuwhatsthis.quizApp.ui.loginScreen.ui.LoginAccountScreen;
+import app.api.state.StateManager;
+import app.ui.LoginAccountScreen;
+import de.uwuwhatsthis.quizApp.ui.loginScreen.R;
 
 public class MainActivity extends AppCompatActivity {
     private StateManager stateManager;

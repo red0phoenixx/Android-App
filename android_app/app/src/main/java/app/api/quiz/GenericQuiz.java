@@ -1,11 +1,11 @@
-package de.uwuwhatsthis.quizApp.ui.loginScreen.api.quiz;
+package app.api.quiz;
 
-import de.uwuwhatsthis.quizApp.ui.loginScreen.api.codes.ApiCodes;
-import de.uwuwhatsthis.quizApp.ui.loginScreen.api.codes.HttpCodes;
-import de.uwuwhatsthis.quizApp.ui.loginScreen.api.generics.ApiRequest;
-import de.uwuwhatsthis.quizApp.ui.loginScreen.api.generics.QuizCallback;
-import de.uwuwhatsthis.quizApp.ui.loginScreen.api.requests.quiz.GetRandomGenericQuizRequest;
-import de.uwuwhatsthis.quizApp.ui.loginScreen.api.state.StateManager;
+import app.api.codes.ApiCodes;
+import app.api.codes.HttpCodes;
+import app.api.generics.ApiRequest;
+import app.api.generics.QuizCallback;
+import app.api.requests.quiz.GetRandomGenericQuizRequest;
+import app.api.state.StateManager;
 import org.json.JSONArray;
 import org.json.JSONObject;
 

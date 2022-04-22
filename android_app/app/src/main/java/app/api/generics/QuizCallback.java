@@ -1,6 +1,6 @@
-package de.uwuwhatsthis.quizApp.ui.loginScreen.api.generics;
+package app.api.generics;
 
-import de.uwuwhatsthis.quizApp.ui.loginScreen.api.quiz.GenericQuiz;
+import app.api.quiz.GenericQuiz;
 
 public interface QuizCallback {
 

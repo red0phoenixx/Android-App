@@ -1,11 +1,11 @@
-package de.uwuwhatsthis.quizApp.ui.loginScreen.api.requests.account;
+package app.api.requests.account;
 
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import de.uwuwhatsthis.quizApp.ui.loginScreen.api.generics.ApiRequest;
-import de.uwuwhatsthis.quizApp.ui.loginScreen.api.generics.RequestCallback;
-import de.uwuwhatsthis.quizApp.ui.loginScreen.api.generics.RequestType;
+import app.api.generics.ApiRequest;
+import app.api.generics.RequestCallback;
+import app.api.generics.RequestType;
 
 public class LoginRequest extends ApiRequest {
 

@@ -1,6 +1,4 @@
-package de.uwuwhatsthis.quizApp.ui.loginScreen.api.generics;
-
-import okhttp3.Response;
+package app.api.generics;
 
 public interface RequestCallback {
 

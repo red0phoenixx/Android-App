@@ -1,16 +1,16 @@
-package de.uwuwhatsthis.quizApp.ui.loginScreen.ui;
+package app.ui;
 
 import android.app.AlertDialog;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import de.uwuwhatsthis.quizApp.ui.loginScreen.MainActivity;
+import app.MainActivity;
 import de.uwuwhatsthis.quizApp.ui.loginScreen.R;
-import de.uwuwhatsthis.quizApp.ui.loginScreen.api.codes.ApiCodes;
-import de.uwuwhatsthis.quizApp.ui.loginScreen.api.generics.ApiRequest;
-import de.uwuwhatsthis.quizApp.ui.loginScreen.api.requests.account.CreateAccountRequest;
-import de.uwuwhatsthis.quizApp.ui.loginScreen.ui.utils.Utils;
+import app.api.codes.ApiCodes;
+import app.api.generics.ApiRequest;
+import app.api.requests.account.CreateAccountRequest;
+import app.ui.utils.Utils;
 
 public class CreateAccountScreen {
     private final TextView username, password, passwordConfirmation;

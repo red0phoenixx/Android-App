@@ -1,4 +1,4 @@
-package de.uwuwhatsthis.quizApp.ui.loginScreen.api.generics;
+package app.api.generics;
 
 public enum RequestType {
     GET, POST;

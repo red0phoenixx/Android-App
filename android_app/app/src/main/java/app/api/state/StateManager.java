@@ -1,4 +1,4 @@
-package de.uwuwhatsthis.quizApp.ui.loginScreen.api.state;
+package app.api.state;
 
 public class StateManager {
 

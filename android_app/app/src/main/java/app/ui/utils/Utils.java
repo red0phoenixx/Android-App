@@ -1,9 +1,9 @@
-package de.uwuwhatsthis.quizApp.ui.loginScreen.ui.utils;
+package app.ui.utils;
 
 import android.app.AlertDialog;
 import android.widget.Toast;
 
-import de.uwuwhatsthis.quizApp.ui.loginScreen.MainActivity;
+import app.MainActivity;
 import de.uwuwhatsthis.quizApp.ui.loginScreen.R;
 
 public class Utils {

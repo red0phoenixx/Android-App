@@ -1,10 +1,9 @@
-package de.uwuwhatsthis.quizApp.ui.loginScreen.api.requests.quiz;
+package app.api.requests.quiz;
 
-import de.uwuwhatsthis.quizApp.ui.loginScreen.api.generics.ApiRequest;
-import de.uwuwhatsthis.quizApp.ui.loginScreen.api.generics.ApiResponse;
-import de.uwuwhatsthis.quizApp.ui.loginScreen.api.generics.RequestCallback;
-import de.uwuwhatsthis.quizApp.ui.loginScreen.api.generics.RequestType;
-import de.uwuwhatsthis.quizApp.ui.loginScreen.api.quiz.GenericQuiz;
+import app.api.generics.ApiRequest;
+import app.api.generics.RequestCallback;
+import app.api.generics.RequestType;
+import app.api.quiz.GenericQuiz;
 
 import org.json.JSONException;
 import org.json.JSONObject;

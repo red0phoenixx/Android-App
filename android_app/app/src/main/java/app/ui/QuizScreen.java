@@ -1,12 +1,12 @@
-package de.uwuwhatsthis.quizApp.ui.loginScreen.ui;
+package app.ui;
 
 import android.widget.Button;
 import android.widget.TextView;
 
-import de.uwuwhatsthis.quizApp.ui.loginScreen.MainActivity;
+import app.MainActivity;
 import de.uwuwhatsthis.quizApp.ui.loginScreen.R;
-import de.uwuwhatsthis.quizApp.ui.loginScreen.api.quiz.GenericQuiz;
-import de.uwuwhatsthis.quizApp.ui.loginScreen.ui.utils.Utils;
+import app.api.quiz.GenericQuiz;
+import app.ui.utils.Utils;
 
 public class QuizScreen {
     private MainActivity instance;
