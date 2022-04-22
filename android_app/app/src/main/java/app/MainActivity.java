@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         new LoginAccountScreen();
     }
 
+    // das ist der Code für die Erstellung eines Push-Benarichtigung-Channels.
     private void createNotificationChannel(){
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O){
             int importance = NotificationManager.IMPORTANCE_DEFAULT;
