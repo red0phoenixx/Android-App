@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/white"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Anmelden"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:layout_margin="50dp"
+        android:gravity="center"
+        android:id="@+id/login"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/login_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:drawablePadding="20dp"
+        android:hint="Benutzername"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/create_account_PasswordLayout"
+        android:layout_below="@id/login_username"
+        app:passwordToggleEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/login_password"
+            android:layout_below="@+id/login_username"
+            android:background="#30ffffff"
+            android:hint="Passwort"
+            android:drawableStart="@drawable/ic_baseline_vpn_key_24"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:layout_margin="10dp"
+            android:padding="20dp"
+            android:textSize="20dp"
+
+            android:drawablePadding="20dp"
+            android:inputType="textPassword"
+        />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/create_account_PasswordLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Anmelden"
+        android:id="@+id/login_button"
+        android:textColor="@color/black"
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Noch kein Konto? Konto erstellen"
+        android:id="@+id/login_create_account"
+        android:layout_below="@id/login_button"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+    />
+
+</RelativeLayout>

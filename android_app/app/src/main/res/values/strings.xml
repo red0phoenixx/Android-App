@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Login Screen</string>
+    <string name="falsche_antwort">\"Falsche Antwort\"</string>
+    <string name="falsche_antwort3">\"Falsche Antwort 3\"</string>
+    <string name="falsche_antwort2">\"Falsche Antwort 2\"</string>
+    <string name="richtige_antwort">\"Falsche Antwort 2\"</string>
+    <string name="frage">\"Frage\"</string>
+</resources>

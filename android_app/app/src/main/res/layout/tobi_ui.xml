@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/tobi_button_eins"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="4dp"
+        android:text="@string/falsche_antwort"
+        app:layout_constraintBottom_toTopOf="@+id/tobi_button_zwei"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tobi_frage" />
+
+    <Button
+        android:id="@+id/tobi_button_vier"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="50dp"
+        android:text="@string/falsche_antwort3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tobi_button_drei"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/tobi_button_drei"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/falsche_antwort2"
+        app:layout_constraintBottom_toTopOf="@+id/tobi_button_vier"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tobi_button_zwei" />
+
+    <Button
+        android:id="@+id/tobi_button_zwei"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/richtige_antwort"
+        app:layout_constraintBottom_toTopOf="@+id/tobi_button_drei"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tobi_button_eins" />
+
+    <TextView
+        android:id="@+id/tobi_frage"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/frage"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/tobi_button_eins"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="250dp"
+        app:layout_constraintBottom_toTopOf="@+id/tobi_button_eins"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
