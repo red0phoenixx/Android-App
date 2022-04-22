@@ -6,6 +6,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import app.MainActivity;
+import app.api.codes.HttpCodes;
 import de.uwuwhatsthis.quizApp.ui.loginScreen.R;
 import app.api.codes.ApiCodes;
 import app.api.generics.ApiRequest;
@@ -52,13 +53,15 @@ public class CreateAccountScreen {
                 return;
             }
 
+
             ApiRequest request = new CreateAccountRequest(username.getText().toString(), password.getText().toString(), response -> {
+                // response.couldConnect() macht eigentlich genau das gleiche wie if (response == null)
                 if (!response.couldConnect()){
                     Utils.showServerConnectionError(instance);
                     return;
                 }
 
-                if (response.getHttpCode().getCode() != 200){
+                if (response.getHttpCode() != HttpCodes.OK){
                     Utils.showErrorMessage(instance, "Ein unerwarteter Netzwerkfehler ist aufgetreten!", "Netzwerk code: " + response.getResponse().code()  + "\n" + "Body: " + response.getJson().toString());
                     return;
                 }
@@ -75,7 +78,7 @@ public class CreateAccountScreen {
                     Utils.showErrorMessage(instance, "Ein Konto mit dem Benutzernamen existiert bereits!", "");
 
                 } else {
-                    Utils.showErrorMessage(instance, "Eine unerwartete Antwort vom server ist aufgetreten!", "Api code: " + response.getJson().optInt("code"));
+                    Utils.showErrorMessage(instance, "Eine unerwartete Antwort vom server ist aufgetreten!", "Api code: " + response.getJson().optInt("code")); // optInt wird verwendet, damit man keinen ganzen try-except block machen muss, nur um einen Wert auszulesen
                 }
             });
 

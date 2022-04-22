@@ -23,9 +23,10 @@ public class QuizScreen {
     }
 
     private void run(){
+        // Hier ist die Api-Anfrage in der GenericQuiz Klasse verpackt. Hier muss nur noch geprüft werden ob die Anfrage erfolgreich war.
         GenericQuiz.getRandomQuiz(quiz -> {
             if (quiz == null){
-                Utils.showErrorMessage(instance, "Failed to get quiz!", "");
+                Utils.showErrorMessage(instance, "Ein Fehler ist aufgetreten, als ein Quiz vom Server abgefraget werden sollte!", "");
                 return;
             }
 

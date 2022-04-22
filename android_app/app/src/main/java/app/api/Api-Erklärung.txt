@@ -1,0 +1,16 @@
+Jede Anfrage an den server hat folgende Struktur (JSON):
+
+{
+    "code": x,
+    ...
+}
+
+Das x sagt aus ob die Anfrage erfolgreich war oder nicht. Jede mögliche Antwort vom Server wurde in
+api/codes/ApiCodes hinzugefügt.
+
+Zudem hat jede Anfrage auch noch einen HTTP-Code, der immer mitgeschickt wird. Ein paar von denen
+sind in api/codes/HTTPCodes beschrieben. Diese sind nicht zu wichtig, da normalerweise vom Server
+immer ein HTTPCodes.OK kommt. Dieser Code dient nur dazu um zu überprüfen ob die Verbindung zum Server
+richtig geklappt hat.
+
+Ihr könnt euch mal die Anfrage im ui Ordner anschauen, dort wird auch nochmal alles beschrieben sein.
