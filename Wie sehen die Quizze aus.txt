@@ -3,5 +3,5 @@ Große Quizze:
 - Man tippt einen Ort auf der Karte an um das Rätsel zu lösen
 
 Kleine Quizze:
-- Nicht Ortsbezogenes quiz, basiert auf Allgemeinwissen
+- Nicht Ortsbezogenes quiz, basiert auf Allgemeinwissen, man muss aber anwesend sein um sie zu lösen
 - Man wählt eine von 4 vorgegebenen Antworten auf
