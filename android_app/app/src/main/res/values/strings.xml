@@ -5,4 +5,5 @@
     <string name="falsche_antwort2">\"Falsche Antwort 2\"</string>
     <string name="richtige_antwort">\"Falsche Antwort 2\"</string>
     <string name="frage">\"Frage\"</string>
+    <string name="BelohnungQuizklein">\"Richtig! Du erhältst 50 Riddlecoins"\</string>
 </resources>
